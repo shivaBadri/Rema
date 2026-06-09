@@ -1,275 +1,99 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>REMA | Maharashtrian Portfolio</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", "Noto Sans Devanagari", sans-serif;
-    }
-
-    body {
-      background: #fff8ec;
-      color: #2b1b10;
-    }
-
-    header {
-      min-height: 100vh;
-      background:
-        linear-gradient(rgba(60,25,5,.65), rgba(60,25,5,.65)),
-        url("./images/rema-1.jpeg") center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      padding: 40px 8%;
-      color: white;
-    }
-
-    .hero {
-      max-width: 650px;
-    }
-
-    .tag {
-      color: #ffd36a;
-      font-weight: 600;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-    }
-
-    h1 {
-      font-size: 64px;
-      margin-bottom: 15px;
-    }
-
-    h1 span {
-      color: #ffb000;
-    }
-
-    .hero p {
-      font-size: 21px;
-      line-height: 1.7;
-      margin-bottom: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 14px 30px;
-      background: #b72a00;
-      color: white;
-      text-decoration: none;
-      border-radius: 40px;
-      font-weight: 600;
-    }
-
-    section {
-      padding: 80px 8%;
-    }
-
-    .title {
-      text-align: center;
-      font-size: 38px;
-      color: #8b2300;
-      margin-bottom: 45px;
-    }
-
-    .about {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 45px;
-      align-items: center;
-    }
-
-    .about img {
-      width: 100%;
-      border-radius: 25px;
-      box-shadow: 0 20px 45px rgba(0,0,0,.25);
-    }
-
-    .about p {
-      font-size: 18px;
-      line-height: 1.9;
-      margin-bottom: 18px;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
-    }
-
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 20px;
-      text-align: center;
-      box-shadow: 0 12px 30px rgba(0,0,0,.1);
-      border-top: 5px solid #d88700;
-    }
-
-    .card h3 {
-      color: #9b2c00;
-      margin-bottom: 10px;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: 480px;
-      object-fit: cover;
-      border-radius: 22px;
-      box-shadow: 0 15px 35px rgba(0,0,0,.22);
-    }
-
-    .quote {
-      background: linear-gradient(135deg, #8b2300, #d88700);
-      color: white;
-      text-align: center;
-      border-radius: 25px;
-      padding: 55px;
-      font-size: 28px;
-      line-height: 1.6;
-    }
-
-    footer {
-      background: #2b1b10;
-      color: white;
-      text-align: center;
-      padding: 35px;
-    }
-
-    @media(max-width: 768px) {
-      h1 {
-        font-size: 44px;
-      }
-
-      .about {
-        grid-template-columns: 1fr;
-      }
-
-      header {
-        padding: 30px 6%;
-      }
-
-      .gallery img {
-        height: 420px;
-      }
-    }
-  </style>
+  <title>REMA | Maharashtrian Culture & Glamour Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <header>
-    <div class="hero">
-      <div class="tag">MH-34 | महाराष्ट्रियन कल्चर</div>
-      <h1>रेमा <span>REMA</span></h1>
-      <p>
-        महाराष्ट्र की संस्कृति, सौंदर्य और आत्मविश्वास का एक सुंदर संगम।
-        परंपरा मेरी पहचान है और आत्मविश्वास मेरी शक्ति।
-      </p>
-      <a href="#about" class="btn">मेरे बारे में जानें</a>
-    </div>
+  <header class="nav">
+    <div class="brand">REMA</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#culture">Culture</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section id="about">
-    <h2 class="title">मेरे बारे में</h2>
+  <main>
+    <section class="hero">
+      <div class="heroText">
+        <p class="tag">Maharashtrian Elegance • MH 34</p>
+        <h1>REMA</h1>
+        <h2>Culture, Grace & Modern Glamour</h2>
+        <p>Rema represents the charm of Maharashtrian tradition with a confident modern presence. Her style blends graceful ethnic fashion, natural beauty, expressive posing, and a premium cultural personality suitable for portfolio, modelling, boutique promotions, saree campaigns, and creative branding.</p>
+        <div class="actions">
+          <a class="btn primary" href="#gallery">View Portfolio</a>
+          <a class="btn" href="#contact">Book Collaboration</a>
+        </div>
+      </div>
+      <div class="heroImage cardGlow">
+        <img src="assets/rema-hero.jpeg" alt="Rema Maharashtrian glamour portfolio" />
+      </div>
+    </section>
 
-    <div class="about">
+    <section id="about" class="section about">
       <div>
-        <p>
-          नमस्कार! मैं रेमा हूँ। मैं महाराष्ट्र की परंपरा, संस्कृति और भारतीय
-          नारी की सुंदरता को आधुनिक अंदाज़ में प्रस्तुत करती हूँ।
-        </p>
-
-        <p>
-          मुझे पारंपरिक भारतीय परिधान, खासकर साड़ी, बहुत पसंद है। मेरा मानना है
-          कि साड़ी केवल एक वस्त्र नहीं बल्कि भारतीय संस्कृति की गरिमा और पहचान है।
-        </p>
-
-        <p>
-          मैं अपने व्यक्तित्व में महाराष्ट्रियन संस्कृति, आत्मविश्वास, सादगी और
-          ग्लैमर का संतुलन बनाए रखना पसंद करती हूँ।
-        </p>
+        <p class="sectionTag">About Rema</p>
+        <h2>A graceful cultural personality from Maharashtra</h2>
       </div>
+      <p>Based around the MH 34 region, Rema carries a visual identity inspired by Maharashtrian heritage, festive saree styling, soft glamour, and traditional jewellery aesthetics. Her portfolio is designed for brands that need an elegant Indian face with a premium cultural touch.</p>
+    </section>
 
-      <img src="./images/rema-2.jpeg" alt="REMA Maharashtrian Portfolio" />
-    </div>
-  </section>
+    <section id="culture" class="section grid3">
+      <article>
+        <span>01</span>
+        <h3>Maharashtrian Culture</h3>
+        <p>Traditional styling, saree elegance, jewellery details, festive personality, and a grounded regional identity.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Glamour Portfolio</h3>
+        <p>Camera-friendly poses, expressive profile shots, soft beauty presentation, and confident feminine presence.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Brand Ready</h3>
+        <p>Suitable for saree boutiques, ethnic wear stores, beauty pages, cultural promotions, and social campaigns.</p>
+      </article>
+    </section>
 
-  <section>
-    <h2 class="title">मेरी पहचान</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>महाराष्ट्रियन संस्कृति</h3>
-        <p>परंपरा, भाषा और सांस्कृतिक मूल्यों से जुड़ी हुई।</p>
+    <section id="gallery" class="section gallery">
+      <div class="galleryText">
+        <p class="sectionTag">Portfolio Gallery</p>
+        <h2>Traditional looks with premium visual finishing</h2>
+        <p>The gallery highlights two distinct moods: outdoor glamour with rich contrast and indoor cultural saree styling with a graceful Maharashtrian feel.</p>
       </div>
-
-      <div class="card">
-        <h3>एथनिक फैशन</h3>
-        <p>साड़ी और भारतीय परिधान को आत्मविश्वास से प्रस्तुत करना।</p>
+      <div class="photos">
+        <figure><img src="assets/rema-hero.jpeg" alt="Outdoor glamour look"><figcaption>Outdoor Glamour Look</figcaption></figure>
+        <figure><img src="assets/rema-culture.jpeg" alt="Maharashtrian saree look"><figcaption>Cultural Saree Look</figcaption></figure>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>ग्लैमर और स्टाइल</h3>
-        <p>आधुनिक अंदाज़ के साथ भारतीय सुंदरता का प्रदर्शन।</p>
+    <section class="section highlight">
+      <h2>Portfolio Use Cases</h2>
+      <div class="chips">
+        <span>Saree Promotions</span><span>Ethnic Wear Modelling</span><span>Beauty Campaigns</span><span>Instagram Branding</span><span>Cultural Events</span><span>Boutique Shoots</span>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>लाइफस्टाइल</h3>
-        <p>सोशल मीडिया, फोटोशूट और सांस्कृतिक प्रस्तुति में रुचि।</p>
+    <section id="contact" class="section contact">
+      <div>
+        <p class="sectionTag">Contact</p>
+        <h2>Available for creative collaborations</h2>
+        <p>For professional shoots, boutique collaborations, brand promotions, and cultural portfolio projects.</p>
       </div>
-    </div>
-  </section>
-
-  <section>
-    <h2 class="title">गैलरी</h2>
-
-    <div class="gallery">
-      <img src="./images/rema-1.jpeg" alt="REMA Traditional Look" />
-      <img src="./images/rema-2.jpeg" alt="REMA Saree Look" />
-    </div>
-  </section>
-
-  <section>
-    <div class="quote">
-      “साड़ी केवल एक परिधान नहीं, बल्कि भारतीय नारी की गरिमा, संस्कृति और आत्मविश्वास की पहचान है।”
-    </div>
-  </section>
-
-  <section>
-    <h2 class="title">संपर्क</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>नाम</h3>
-        <p>रेमा</p>
-      </div>
-
-      <div class="card">
-        <h3>स्थान</h3>
-        <p>महाराष्ट्र, MH-34</p>
-      </div>
-
-      <div class="card">
-        <h3>ईमेल</h3>
-        <p>contact@rema.in</p>
-      </div>
-    </div>
-  </section>
+      <a class="btn primary" href="mailto:contact@example.com">Connect Now</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 REMA Portfolio | महाराष्ट्रियन संस्कृति और सौंदर्य
+    <p>© 2026 REMA Portfolio • Maharashtrian Culture & Glamour • MH 34</p>
   </footer>
-
 </body>
 </html>
